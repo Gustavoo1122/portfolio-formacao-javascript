@@ -1,0 +1,41 @@
+.acordeon{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    border: 1px solid #FFF;
+    transition: 0.5s;
+}
+
+.acordeon.open,
+.acordeon:hover{
+    background-color: #5700bb;
+    border-color: #5700bb;
+}
+
+.acordeon .trigger{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+}
+
+
+
+.acordeon .content{
+    box-sizing: content-box;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding 0.5s ease;
+}
+
+.acordeon.open .content{
+    display: none;
+}
