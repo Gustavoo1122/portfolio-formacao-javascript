@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #11071F;
+    color: #FFF;
+}
+
+.main{
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #9233FF;
+    border-radius: 1rem;
+}
+
+@media screen and (min-width: 500px) {
+    .main{
+        max-width: 1024px;
+    }
+
+    .main::before{
+        width: 70vw;
+    }
+
+    .main::after{
+        width: 70vw;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .main{
+        margin: 1rem auto;
+    }
+}
