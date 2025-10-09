@@ -27,15 +27,37 @@
     color: #FFF;
 }
 
+.acordeon.open .trigger::after{
+    transform: rotate(180deg) translateY(10px);
+    transition: .25s;
+}
 
+.acordeon .trigger::after{
+    content: '';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/img/icons/arrow.svg');
+    margin-top: .7rem;
+    transition: .25s;
+}
+
+.acordeon .trigger:hover{
+    cursor:pointer;
+}
 
 .acordeon .content{
-    box-sizing: content-box;
-    max-height: 0;
     overflow: hidden;
-    transition: max-height 0.5s ease, padding 0.5s ease;
+    height: 0;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
 }
 
 .acordeon.open .content{
-    display: none;
+    display: block;
+    padding: 0 1rem 1rem 2rem;
+    height: auto;
+    opacity: 1;
 }
