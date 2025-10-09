@@ -8,7 +8,7 @@ body {
     color: #FFF;
 }
 
-.main{
+main{
     padding: 1rem;
     margin: 1rem;
     border: 1px solid #9233FF;
@@ -16,21 +16,21 @@ body {
 }
 
 @media screen and (min-width: 500px) {
-    .main{
+    main{
         max-width: 1024px;
     }
 
-    .main::before{
+    main::before{
         width: 70vw;
     }
 
-    .main::after{
+    main::after{
         width: 70vw;
     }
 }
 
 @media screen and (min-width: 1024px){
-    .main{
+    main{
         margin: 1rem auto;
     }
 }

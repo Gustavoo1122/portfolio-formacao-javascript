@@ -5,9 +5,7 @@ acordeonTriggers.forEach((trigger) => {
         const acordeon = trigger.parentElement;
         const acordeonIsOpen = acordeon.classList.contains('open');
 
-        if(acordeonIsOpen)
-            acordeon.classList.remove('open');
-        else
-            acordeon.classList.add('open');
+        if(acordeonIsOpen) acordeon.classList.remove('open');
+        else acordeon.classList.add('open');
     })
 })
