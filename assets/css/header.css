@@ -33,6 +33,15 @@
     font-size: 1.125rem;
 }
 
+.information p a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.information p a:hover{
+    text-decoration: underline;
+}
+
 .information p::before {
     content: '';
     display: inline-block;
