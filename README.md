@@ -29,3 +29,4 @@ O portfólio foi construído utilizando **HTML, CSS e JavaScript**, com o suport
 | **Node.js** | Ambiente para execução local e futura integração com backend |
 
 ---
+oi, dudu esteve aqui
