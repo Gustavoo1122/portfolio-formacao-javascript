@@ -38,6 +38,7 @@
 .portfolio li a{
     color: #FFF;
     text-decoration: none;
+    overflow-wrap: break-word;
 }
 
 .portfolio li a:hover{
