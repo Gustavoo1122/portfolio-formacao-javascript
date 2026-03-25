@@ -28,18 +28,18 @@
 <body>
     <main>
         <header class="header">
-            <img src="assets/img/profile_image.png" alt="Imagem de perfil" class="photo">
+            <img src="assets/img/profile_image.png" alt="Imagem de perfil" class="photo" id="profile.photo">
 
-            <h1 class="title">Gustavo Pereira</h1>
+            <h1 class="title" id="profile.name">Loading...</h1>
             <div class="information">
-                <p class="job">Desenvolvedor Júnior</p>
-                <p class="location">São Paulo - SP</p>
-                <p class="phone"><a href="tel:(11) 9 8214-0868">(11) 9 8214-0868</a></p>
-                <p class="mail"><a href="mailto:gustavope883@gmail.com">gustavope883@gmail.com</a></p>
+                <p class="job" id="profile.job">Loading...</p>
+                <p class="location" id="profile.location">Loading...</p>
+                <p class="phone"><a href="tel:(11) 9 8214-0868" id="profile.phone">Loading...</a></p>
+                <p class="email"><a href="mailto:gustavope883@gmail.com" id="profile.email">Loading...</a></p>
             </div>
         </header>
 
-        <section class="acordeon open">
+        <section class="acordeon">
             <button class="trigger" type="button">
                 Habilidades
             </button>
@@ -49,22 +49,14 @@
                     <section class="tools">
                         <h3>Linguagens:</h3>
 
-                        <ul>
-                            <li><img src="/assets/img/icons/react.svg" alt="ícone react"></li>
-                            <li><img src="/assets/img/icons/python.svg" alt="ícone python"></li>
-                            <li><img src="/assets/img/icons/csharp.svg" alt="ícone csharp"></li>
-                            <li><img src="/assets/img/icons/java.svg" alt="ícone java"></li>
-                            
+                        <ul id="profile.skills.hardSkills">                            
                         </ul>
                     </section>
                     <section class="personal">
                         <h3>Pessoal:</h3>
 
-                        <ul>
-                            <li>Organização</li>
-                            <li>Comunicação</li>
-                            <li>Trabalho em equipe</li>
-                            <li>Facilidade com tarefas práticas</li>
+                        <ul id="profile.skills.softSkills">
+                            <li>Loading...</li>
                         </ul>
                     </section>
                 </div>
@@ -78,18 +70,7 @@
             </button>
 
             <div class="content">
-                <ul class="jobs">
-                    <li>
-                        <span class="title">Analista de Suporte Pleno</span>
-                        <p class="date">Abr 2024 - Momento</p>
-                        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-                    </li>
-
-                    <li>
-                        <span class="title">Analista de Suporte Pleno</span>
-                        <p class="date">Abr 2024 - Momento</p>
-                        <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-                    </li>
+                <ul class="jobs" id="profile.professionalExperience">
                 </ul>
             </div>
 
@@ -101,9 +82,8 @@
             </button>
 
             <div class="content">
-                <ul class="languages">
-                    <li>Português</li>
-                    <li>Inglês</li>
+                <ul class="languages" id="profile.languages">
+                    <li>Loading...</li>
                 </ul>
             </div>
         </section>
@@ -114,19 +94,7 @@
             </button>
 
             <div class="content">
-                <ul class="portfolio">
-                    <li>
-                        <span class="title github">Criando um App de lembrete</span>
-                        <a href="https://www.dio.me/Coffee-Talk-Java-and-Opinions/GitHub-URL-find-use-example" target="_blank">https://www.dio.me/Coffee-Talk-Java-and-Opinions/GitHub-URL-find-use-example</a>
-                    </li>
-                    <li>
-                        <span class="title github">Layout Uber</span>
-                        <a href="https://www.dio.me/Coffee-Talk-Java-and-Opinions/GitHub-URL-find-use-example" target="_blank">https://www.dio.me/Coffee-Talk-Java-and-Opinions/GitHub-URL-find-use-example</a>
-                    </li>
-                    <li>
-                        <span class="title">Criando Front-end com React</span>
-                        <a href="https://www.dio.me/Coffee-Talk-Java-and-Opinions/GitHub-URL-find-use-example" target="_blank">https://www.dio.me/Coffee-Talk-Java-and-Opinions/GitHub-URL-find-use-example</a>
-                    </li>
+                <ul class="portfolio" id="profile.portfolio">
                 </ul>
             </div>
 
@@ -135,5 +103,7 @@
     </main>
 
     <script src="/assets/js/acordeon.js"></script>
+    <script src="/assets/js/api.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>
