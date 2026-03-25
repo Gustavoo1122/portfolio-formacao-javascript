@@ -49,19 +49,19 @@
   ],
   "professionalExperience": [
     {
-      "name": "Analista de Suporte Pleno / Transportes Della Volpe",
+      "name": "Analista de Suporte Sênior / Transportes Della Volpe",
       "period": "Mar 2026 - até o momento",
-      "description": "Descrição das repsonsabilidades."
+      "description": "Atendimento e triagem de chamados no SAP S/4HANA (Fiori e GUI); Análise e resolução de incidentes nos módulos TM e FI; Atuação técnica via SAP GUI (ex.: SM30, SE16N, SE38, SU01), incluindo ajustes em tabelas e execução de programas; Gestão de acessos e permissões de usuários; Identificação de causas raiz e apoio técnico a usuários e times N2/N3."
     },
     {
       "name": "Analista de Suporte Pleno / Transportes Della Volpe",
       "period": "Mai 2025 - Mar 2026",
-      "description": "Descrição das repsonsabilidades."
+      "description": "Atendimento e triagem de chamados N1 no SAP S/4HANA (Fiori e GUI); Identificação e solução de incidentes nos módulos TM e FI; Encaminhamento de tickets para times N2/N3 (SD, MM, PM); Apoio funcional aos usuários finais, esclarecimento de dúvidas; Gestão de acessos: criação de usuários, redefinição de senhas e controle de permissões no SAP."
     },
     {
       "name": "Analista de Suporte Júnior / Transportes Della Volpe",
       "period": "Dez 2024 - Mai 2025",
-      "description": "Descrição das repsonsabilidades."
+      "description": "Análise e correção de erros via banco de dados ORACLE - PL/SQL; Uso de comandos DML, DQL e DCL; Criação de procedures, functions e views; Criação e configuração de usuários; Acesso remoto para instalação de softwares, tratativa de erros e acompanhamento; Treinamento de novos funcionários; Atendimento ao usuário."
     }
   ]
 }
